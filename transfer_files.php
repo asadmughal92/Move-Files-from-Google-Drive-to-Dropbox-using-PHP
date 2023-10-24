@@ -9,7 +9,7 @@ use Kunnu\Dropbox\DropboxApp;
 
 // Check if the user is authenticated with both Google and Dropbox
 if (!isset($_SESSION['google_access_token']) || !isset($_SESSION['dropbox_access_token'])) {
-    header('Location: login.php');
+    header('Location: index.php');
     exit;
 }
 
