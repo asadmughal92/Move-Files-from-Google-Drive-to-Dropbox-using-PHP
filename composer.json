@@ -1,0 +1,20 @@
+{
+    "require": {
+        "google/apiclient": "^2.15",
+        "kunalvarma05/dropbox-php-sdk": "^0.4.2",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Drive",
+            "YouTube"
+        ]
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
