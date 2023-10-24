@@ -29,7 +29,7 @@ Before running the project, you need to set up the following:
 
 4. Set up your API credentials: Replace the placeholders in `config.php` with your Google Drive and Dropbox API credentials.
 
-5. Start your web server and visit `login.php` in your web browser to begin the authentication process.
+5. Start your web server and visit `index.php` in your web browser to begin the authentication process.
 
 6. After logging in with your Google Account, you'll be redirected to the Dropbox connection page. You can start transferring files from your Google Drive to Dropbox.
 
